@@ -1,0 +1,111 @@
+body{
+    background-color: hsl(0, 0%, 95%);
+}
+.main{
+    margin: 110px auto;
+    border-radius: 10px;
+    background-color: white;
+    width: 810px;
+    height: 430px;
+}
+.left{
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    background-color: hsl(31, 77%, 52%);
+    width: 270px;
+    height: 430px;
+    position: relative;
+}
+.middle{
+    background-color: hsl(184, 100%, 22%);
+    width: 270px;
+    height: 430px;
+    position: relative;
+    left: 270px;
+    bottom: 430px;
+}
+.right{
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    background-color: hsl(179, 100%, 13%);
+    width: 270px;
+    height: 430px;
+    position: relative;
+    left: 540px;
+    bottom: 860px;
+}
+h1{
+    letter-spacing: 1px;
+    font-weight: 600;
+    font-size: 40px;
+    color: hsl(0, 0%, 95%);
+    top: 100px;
+    left: 50px;;
+    font-family: 'Big Shoulders Display', cursive;
+    position: relative;
+    top: 30px;
+    left: 50px;
+}
+p{
+    letter-spacing: 0.5px;
+    line-height: 1.7;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 12.5px;
+    position: relative;
+    top: 30px;
+    left: 50px;
+}
+img{
+    position: relative;
+    top: 30px;
+    left: 50px;
+}
+.button1{
+    cursor: pointer;
+    color: hsl(31, 77%, 52%);
+    font-family: 'Lexend Deca', sans-serif;
+    border: 2px solid white;
+    border-radius: 30px;
+    width: 130px;
+    height: 40px;
+    position: relative;
+    top: 80px;
+    left: 50px;
+}
+.button2{
+    cursor: pointer;
+    color: hsl(184, 100%, 22%);
+    font-family: 'Lexend Deca', sans-serif;
+    border: 2px solid white;
+    border-radius: 30px;
+    width: 130px;
+    height: 40px;
+    position: relative;
+    top: 80px;
+    left: 50px;
+}
+.button3{
+    cursor: pointer;
+    color: hsl(179, 100%, 13%);
+    font-family: 'Lexend Deca', sans-serif;
+    border: 2px solid white;
+    border-radius: 30px;
+    width: 130px;
+    height: 40px;
+    position: relative;
+    top: 80px;
+    left: 50px;
+}
+.button1:active{
+    background-color: hsl(31, 77%, 52%);
+    color: white;
+}
+.button2:active{
+    background-color: hsl(184, 100%, 22%);
+    color: white;
+}
+.button3:active{
+    background-color: hsl(179, 100%, 13%);
+    color: white;
+}
